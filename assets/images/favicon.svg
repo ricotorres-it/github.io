@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="RT monogram">
+  <rect width="64" height="64" rx="18" fill="#050505"/>
+  <rect x="3" y="3" width="58" height="58" rx="16" fill="#D7FFE0"/>
+  <path d="M17 20h14c7 0 11 3.8 11 9.4 0 4.2-2.3 7.2-6.4 8.5L43 49h-8.5l-6.2-10H25v10h-8V20Zm8 6.5v6.4h5.6c2.4 0 3.8-1.1 3.8-3.2 0-2.1-1.4-3.2-3.8-3.2H25Z" fill="#050505"/>
+  <path d="M39 20h13v6.7h-4.4V49h-7.8V26.7H39V20Z" fill="#050505" opacity=".94"/>
+</svg>

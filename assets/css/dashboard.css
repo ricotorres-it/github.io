@@ -1,0 +1,156 @@
+@import url('./dashboard-base.css');
+@import url('./polish.css');
+@import url('./ghost-theme.css');
+@import url('./final-polish.css');
+
+.profile .company{display:none!important}
+.mobile-menu{display:none!important}
+
+@media(max-width:900px){
+  .overlay,[data-overlay]{display:none!important}
+
+  .sidebar{
+    position:fixed;
+    inset:auto auto calc(12px + env(safe-area-inset-bottom)) 50%;
+    z-index:80;
+    width:min(calc(100vw - 28px),390px);
+    height:64px;
+    padding:8px 10px;
+    transform:translateX(-50%)!important;
+    border:1px solid rgba(215,255,224,.11);
+    border-radius:22px;
+    background:rgba(14,15,14,.96);
+    box-shadow:0 18px 44px rgba(0,0,0,.55),0 2px 10px rgba(0,0,0,.35);
+    backdrop-filter:blur(18px);
+    overflow:visible;
+    display:block;
+  }
+
+  .sidebar .profile,.sidebar .side-bottom{display:none!important}
+
+  .side-nav{
+    position:relative;
+    display:grid;
+    grid-template-columns:repeat(6,minmax(0,1fr));
+    align-items:center;
+    gap:4px;
+    width:100%;
+    height:100%;
+    margin:0;
+  }
+
+  .side-nav a{
+    position:relative;
+    justify-self:center;
+    width:44px;
+    min-width:44px;
+    height:44px;
+    min-height:44px;
+    padding:0!important;
+    border:1px solid rgba(215,255,224,.07)!important;
+    border-radius:50%!important;
+    background:#1a1c1a!important;
+    color:#c8d4ca!important;
+    display:grid;
+    place-items:center;
+    gap:0;
+    font-size:0!important;
+    line-height:1;
+    box-shadow:none!important;
+    transform:none!important;
+    transition:width .2s ease,height .2s ease,background-color .2s ease,border-color .2s ease,color .2s ease,transform .2s ease,box-shadow .2s ease;
+  }
+
+  .side-nav a:hover,.side-nav a:focus-visible{
+    background:#222522!important;
+    border-color:rgba(215,255,224,.22)!important;
+    color:#d7ffe0!important;
+    transform:translateY(-2px)!important;
+  }
+
+  .side-nav a[aria-current="page"]{
+    width:58px;
+    min-width:58px;
+    height:58px;
+    min-height:58px;
+    margin-top:-18px;
+    background:#262926!important;
+    border-color:rgba(215,255,224,.24)!important;
+    color:#d7ffe0!important;
+    transform:translateY(-7px)!important;
+    box-shadow:0 12px 26px rgba(0,0,0,.5),0 0 0 1px rgba(215,255,224,.04)!important;
+  }
+
+  .side-nav a[aria-current="page"]:hover,.side-nav a[aria-current="page"]:focus-visible{
+    background:#2b2f2b!important;
+    border-color:rgba(215,255,224,.42)!important;
+    transform:translateY(-9px)!important;
+  }
+
+  .side-nav .nav-ico{
+    width:auto;
+    height:auto;
+    display:grid;
+    place-items:center;
+    color:inherit!important;
+    font-size:18px;
+  }
+
+  .side-nav .nav-ico .ph-icon{width:20px;height:20px}
+  .side-nav a[aria-current="page"] .nav-ico .ph-icon{width:25px;height:25px}
+
+  .side-nav a[aria-current="page"]::before{
+    content:attr(data-nav-label);
+    position:absolute;
+    left:50%;
+    bottom:calc(100% + 10px);
+    transform:translateX(-50%);
+    padding:5px 8px;
+    border:1px solid rgba(215,255,224,.12);
+    border-radius:6px;
+    background:#202220;
+    color:#effff2;
+    font-size:9px;
+    font-weight:700;
+    line-height:1;
+    white-space:nowrap;
+    box-shadow:0 8px 18px rgba(0,0,0,.35);
+    pointer-events:none;
+  }
+
+  .workspace{
+    margin-left:0;
+    min-height:100dvh;
+    padding-bottom:calc(96px + env(safe-area-inset-bottom));
+  }
+}
+
+@media(max-width:430px){
+  .sidebar{
+    width:min(calc(100vw - 18px),360px);
+    height:60px;
+    padding:7px 8px;
+    border-radius:20px;
+  }
+  .side-nav{gap:2px}
+  .side-nav a{
+    width:40px;
+    min-width:40px;
+    height:40px;
+    min-height:40px;
+  }
+  .side-nav a[aria-current="page"]{
+    width:52px;
+    min-width:52px;
+    height:52px;
+    min-height:52px;
+    margin-top:-15px;
+  }
+  .side-nav .nav-ico .ph-icon{width:18px;height:18px}
+  .side-nav a[aria-current="page"] .nav-ico .ph-icon{width:23px;height:23px}
+  .workspace{padding-bottom:calc(90px + env(safe-area-inset-bottom))}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .side-nav a{transition:none!important}
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Rico Torres - System Administrator and IT Infrastructure</title>
+  <desc id="desc">Zero Black and Ghost Green portfolio social preview for Rico Torres.</desc>
+  <defs>
+    <radialGradient id="glow" cx="84%" cy="12%" r="62%">
+      <stop offset="0" stop-color="#D7FFE0" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#D7FFE0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#D7FFE0" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#050505"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <g transform="translate(76 74)">
+    <rect width="86" height="86" rx="24" fill="#D7FFE0"/>
+    <text x="43" y="56" text-anchor="middle" fill="#050505" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="900">RT</text>
+    <text x="108" y="36" fill="#F4FFF6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="850">Rico Torres</text>
+    <text x="108" y="67" fill="#A8B8AB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600">System Administrator · IT Infrastructure</text>
+  </g>
+
+  <g transform="translate(76 218)">
+    <text x="0" y="0" fill="#D7FFE0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="850" letter-spacing="3">SYSTEMS / AUTOMATION / SOLUTIONS</text>
+    <text x="0" y="82" fill="#F4FFF6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="900" letter-spacing="-2.6">Stable systems.</text>
+    <text x="0" y="151" fill="#F4FFF6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="900" letter-spacing="-2.6">Repeatable operations.</text>
+    <text x="0" y="207" fill="#A8B8AB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Linux • cPanel/WHM • WordPress • GLPI • Bash • Monitoring • Security</text>
+  </g>
+
+  <g transform="translate(875 180)">
+    <rect width="250" height="284" rx="28" fill="#0B0B0B" stroke="#D7FFE0" stroke-opacity=".24"/>
+    <rect x="22" y="22" width="206" height="46" rx="14" fill="#D7FFE0"/>
+    <text x="125" y="51" text-anchor="middle" fill="#050505" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="900">ZERO BLACK × GHOST GREEN</text>
+    <text x="24" y="111" fill="#D7FFE0" font-family="ui-monospace,Consolas,monospace" font-size="15">$ status --production</text>
+    <text x="24" y="145" fill="#F4FFF6" font-family="ui-monospace,Consolas,monospace" font-size="17">stable</text>
+    <text x="24" y="174" fill="#F4FFF6" font-family="ui-monospace,Consolas,monospace" font-size="17">secure</text>
+    <text x="24" y="203" fill="#F4FFF6" font-family="ui-monospace,Consolas,monospace" font-size="17">documented</text>
+    <text x="24" y="248" fill="#D7FFE0" font-family="ui-monospace,Consolas,monospace" font-size="14">automate_the_repeatable</text>
+  </g>
+
+  <rect x="76" y="553" width="1048" height="1" fill="#D7FFE0" opacity=".16"/>
+  <text x="76" y="590" fill="#89998C" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">itprimeview.github.io/test/</text>
+  <text x="1124" y="590" text-anchor="end" fill="#89998C" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Portfolio • Case Studies • Credentials</text>
+</svg>
